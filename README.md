@@ -5,7 +5,7 @@ Esse projeto foi desenvolvido com intuito de demonstrar como ocorre e exemplific
 
 # Tecnologias utilizadas
 - Python / Flask
-- Html
+- HTML / CSS
 - SQL Lite 3
   
 # Autora
