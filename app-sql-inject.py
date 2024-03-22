@@ -1,3 +1,5 @@
+# ESSE CÓDIGO FOI DESENVOLVIDO PARA TER VULNERÁBILIDADES, AFINS DE TESTES DE SQL INJECTION - PODE CONTER MAU FUNCIONAMENTO
+
 from flask import Flask, render_template, request, redirect, url_for, session
 import sqlite3
 import hashlib
@@ -18,6 +20,8 @@ def login():
         password = request.form['password']
         conn = sqlite3.connect('database.db')
         c = conn.cursor()
+        
+        # A VULNERÁBILIDADE SE ENCONTRA AQUI, ONDE ELE CONCATENA AS ENTRADAS DO USUÁRIO NAS STRINGS DE CONSULTA
         query = f"SELECT * FROM usuarios WHERE username='{username}' AND password='{password}'"
         c.execute(query)
         user = c.fetchone()

