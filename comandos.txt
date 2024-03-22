@@ -15,4 +15,4 @@ Execução do servidor Flask
 * A consulta para invasão *
 SELECT * FROM usuarios WHERE username='[username]' AND password='' OR '1'='1'
 
-* Explicação ao usar tal comando para invadir o SQL, o programa entederá como 'True' e colocará rodas as contas a disposição do invasor *
+* Explicação ao usar tal comando para invadir o SQL, o programa entederá como 'True' e colocará todas as contas a disposição do invasor *
