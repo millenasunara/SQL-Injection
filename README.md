@@ -1,8 +1,7 @@
 # Sobre o projeto
 Esse projeto foi desenvolvido com intuito de demonstrar como ocorre e exemplificar uma invasão SQL Inject. 
 
-# Layout 
-![read me-img](![image](https://github.com/millenasunara/SQL-Injection/assets/148871283/0d0dc415-3b9d-401e-898b-490a1e7bce4d)
+(![image(https://github.com/millenasunara/SQL-Injection/assets/148871283/0d0dc415-3b9d-401e-898b-490a1e7bce4d)
 
 # Tecnologias utilizadas
 - Python / Flask
